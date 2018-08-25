@@ -1,0 +1,12 @@
+.row-content{
+    background:rgb(77, 77, 79);
+    padding-bottom:60px;
+}
+
+.clearfix{
+    overflow:auto;
+}
+.nav-categories {
+    border-radius: 25px;
+    border: 2px solid rgb(7, 7, 7);
+}

@@ -1,0 +1,104 @@
+﻿<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width" , initial scale="1">
+    <title>Knoxzic Hub</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/bootstrap-social.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <style>
+        .jumbotron {
+            font-family: 'Niagara Engraved' ;
+            color: white;
+            text-align: center;
+            background: linear-gradient(to top, rgb(7, 7, 7), rgb(20, 18, 18));
+        }
+
+        .body{
+            background-image:url(knoxzic2.png);
+            background-repeat:repeat;
+        }
+        .footer{
+            background-image:url(knoxzic3.png);
+        }
+        #Musicsection{
+            border-radius: 25px;
+            padding: 20px;
+        }
+        #CSsection{
+            border-radius: 25px;
+            padding: 20px;
+        }
+        #Clothingstore{
+            border-radius: 25px;
+            padding: 20px;
+        }
+        .nav-custom {
+            background: linear-gradient(to bottom right, #808080, #000000)
+        }
+    </style>
+</head>
+
+<body class="body">
+    <header>
+        <div class="jumbotron jumbo-content clearfix">
+            <h1 style="font:bold 200;">Knoxzic Inc.</h1>
+        </div>
+    </header>
+    <nav class="nav navbar nav-custom" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                        aria-controls="navbar">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="Knoxzic.html">The Hub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="row nav-categories clearfix col-xs-2">
+        <ul class="nav nav-pills nav-stacked">
+            <li class="active"><a data-toggle="pill" href="#Musicsection">Music Bookings/Producers </a></li>
+            <li><a data-toggle="pill" href="#CSsection">Computer Engineers</a></li>
+            <li><a data-toggle="pill" href="#Clothingstore">Clothing Technicians</a></li>
+        </ul>
+    </div>
+    <div class="container col-sm-8-offset-2" style="border:2px solid rgb(7, 7, 7);">
+        <div class="tab-content" style="padding-left:100px;">
+            <div id="Musicsection" class="tab-pane fade in active">
+                <div class="container">
+                    <img src="knoxzic.png" width="300" height="300" />
+                </div>
+            </div>
+            <div id="CSsection" class="tab-pane fade">
+                <div class="container">
+                    <img src="knoxzic2.png" />
+                    <h1 style="color:white;">Coming Soon</h1>
+                </div>
+            </div>
+            <div id="Clothingstore" class="tab-pane fade">
+                <div class="container">
+                    <img src="knoxzic3.png" />
+                    <h1 style="color:white;">Coming Soon</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <aside style="background:rgb(7, 7, 7);">
+
+    </aside>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
